@@ -4,8 +4,8 @@
 * Date de déploiement : 15 mai 2018 mdr..
 
 # architecture  
-INTERFACE DE DÉPÔT, Privé :
-Home
+INTERFACE DE DÉPÔT, Privé :  
+Home  
   * Hello, petit message de bienvenue
   * bouton S'identifier (accès limité à une poignée d'individus)
 
@@ -13,23 +13,31 @@ Login
   * Formulaire de connexion
 
  Une fois l'utilisateur reconnu :
- Dépôt
+
+ Dépôt  
   1. Choisir déposer article ou photos
-  ARTICLE :
+
+  ARTICLE :  
+
 {éditeur de texte : quill.js à la place de react ?
+
     * Déposer du texte (Titre, chapo et corps de texte) dans une limite de caractères
     * Optionnel : déposer des images illustrant ce texte (donc lié à lui) + une ligne de légende (crédits et description)
+
   PHOTOS :
     * Déposer des images (liées les unes aux autres)+ une ligne de légende (crédits et description)
 
-  2. Soumettre, sauvegarder les données dans une db
+  2. Soumettre, sauvegarder les données dans une db  
 
 # architecture  
 RENDU, Public :
-Home
+
+Home  
+
     * Hello, petit message de bienvenue
 
-Naviguer'
+Naviguer
+ 
     * Aperçu des titres, images (niveau zoom 0)
     * en séléctionnant : déploiement des chapôs (niveau zoom 1)
     * en sélectionnant encore : affichage de corps des texte et légendes (niveau zoom 2)
