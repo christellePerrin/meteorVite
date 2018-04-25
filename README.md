@@ -19,7 +19,7 @@ Login
 
   ARTICLE :  
 
-{éditeur de texte : quill.js à la place de react ?}
+éditeur de texte : quill.js à la place de react ?  
     * Déposer du texte (Titre, chapo et corps de texte) dans une limite de caractères
     * Optionnel : déposer des images illustrant ce texte (donc lié à lui) + une ligne de légende (crédits et description)
 
