@@ -1,0 +1,61 @@
+
+h {
+  background: #e1ffff;
+  padding : 1px 10px 1px 10px;
+  margin : 10px 0px 0px 10px;
+  font-family : "Fantasque Sans Mono", monospace;
+  font-size: 1EM
+}
+
+
+p {
+  padding-left: 10px;
+  font-family : "Fantasque Sans Mono", monospace;
+  font-size: 1EM
+}
+
+div{
+  font-family : "Fantasque Sans Mono", monospace;
+  font-size: 0.8EM
+}
+.titre{
+  background: white;
+  width : 300px;
+  color:black;
+  border: solid 10px black;
+  margin: 20px 0px 20px 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1em;
+}
+
+.chapo{
+    background: white;
+    color:black;
+    width : 1000px;
+    border: solid 10px black;
+    margin: 20px 0px 20px 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1em;
+  /*  height : 200px;*/
+}
+
+
+.outline {
+    color: white;
+    text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+                 #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+    font-family : "Space Mono", monospace;
+    font-size: 3EM
+}
+
+.surligner{
+  background : black;
+  color : white;
+  padding-left : 5px;
+  font-family : "WhoIs", monospace;
+  font-size: 3EM
+
+}

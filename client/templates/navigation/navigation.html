@@ -1,0 +1,10 @@
+<template name = 'navigation'>
+  <ul>
+      <li><a href="{{pathFor route='home'}}">Interface</a></li>
+      {{#if currentUser}}
+          <li><a href="#" class="logout">Se déconnecter</a></li>
+      {{else}}
+          <li><a href="{{pathFor route='login'}}">Se connecter</a></li>
+      {{/if}}
+  </ul>
+</template>

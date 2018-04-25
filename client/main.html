@@ -1,0 +1,76 @@
+<head>
+  <title>Maze - Dépôt</title>
+  <meta charset="utf-8" />
+</head>
+
+
+<body>
+  <h>Maze Magazine | Cannes 2018 | Interface de dépôt</h>
+
+  <div>
+    <button class="button"> Se connecter </button>
+  </div>
+
+  <ul>
+    {{#each images}}
+      {{> images}}
+    {{/each}}
+  </ul>
+
+  {{#if currentUser}}
+  {{> dashboard}}
+  {{else}}
+  <h> S'identifier </h>
+  {{> login}}
+  {{/if}}
+
+<div class="info">Utiliser les raccourcis Ctrl+B pour écrire en gras, Ctrl+I pour les italiques, Ctrl+U pour souligner</div>
+
+<h> Titre :</h>
+<form>
+  <input class="titre" type="text" name="titre">
+</form>
+
+<h>Chapô :</h>
+<form>
+  <input class="chapo" type="text" name="chapo">
+</form>
+
+<h>Corps de texte :</h>
+  {{> editor}}
+
+  <div>
+    <button class="button"> Envoyer </button>
+  </div>
+
+
+  <!--
+  <p>
+  <div class="outline">
+  HELLO WORLD ! Goodbye
+</div>
+
+<div class="surligner">
+HELLO WORLD ! Goodbye
+</div>
+</p>
+
+
+
+<form class="titre-entrée">
+  <input class="titre" type="text" name="titre" placeholder="Salut le titre">
+  <input type="submit" value="Envoyer">
+</form>
+
+<form class="chapô-entrée">
+  <input class="chapo" type="text" name="chapo" placeholder="Voici le chapi-chapô">
+  <input type="submit" value="Envoyer">
+</form>
+
+<form class="corps-entrée">
+  <input class="corps" type="text" name="corps" placeholder="Et ici l'ensemble du corps du texte wouhou">
+  <input type="submit" value="Envoyer">
+</form>
+
+-->
+</body>

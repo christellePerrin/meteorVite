@@ -1,0 +1,33 @@
+li.chose {
+  width: 300px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 25px;
+  border: 2px solid grey;
+
+  margin: 5px;
+  text-align: center;
+}
+
+li > span {
+  float: right;
+  cursor: pointer;
+}
+li > span.supprimemoi {
+  background: red;
+}
+
+
+li > span.supprimemoi:hover {
+  color: purple;
+  background-color: chartreuse;
+}
+
+li > span.editemoi {
+  color:white;
+  background: blue;
+}
+li > span.editemoi:hover {
+  color: blue;
+  background-color: white;
+}

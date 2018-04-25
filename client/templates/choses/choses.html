@@ -1,0 +1,25 @@
+
+<template name="ajouterChose">
+  <input type="text">
+  <button>Valider</button>
+</template>
+
+<template name="listeChoses">
+  <ol>
+    {{#each choses}}
+      {{> afficherUneChose}}
+    {{else}}
+      <li>Pas de choses</li>
+    {{/each}}
+  </ol>
+</template>
+
+
+
+<template name="afficherUneChose">
+  {{#if choseCourante}}
+    <p>EDITER !</p>
+  {{else}}
+  <li class="chose">{{titre}}<span class="supprimemoi">[X]</span><span class="editemoi">[E]</span></li>
+  {{/if}}
+</template>
